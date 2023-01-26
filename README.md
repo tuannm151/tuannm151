@@ -3,7 +3,7 @@
 
 ⤷ I am a self-motivated and enthusiastic student. I have a solid understanding of front-end and back-end technologies, and I am eager to learn and develop new skills to become a professional Developer.
 
- <a aligh="left" href="mailto:minhtuan.dev05@gmail.com" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/at.svg" alt="Email" width="22" height="22" /></a>  
+ <a aligh="left" href="mailto:minhtuan.dev05@gmail.com" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/at.svg" alt="Email" width="22" height="22" />minhtuan.dev05@gmail.com</a>  
 
 ⚐ Based in Hanoi
 
