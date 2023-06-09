@@ -9,15 +9,16 @@ services:
       - gateway-network
 
     depends_on:
-      - naming-service
+      - naming-service
+
     environment:
       - EUREKA.CLIENT.SERVICEURL.DEFAULTZONE=http://naming-service:8761/eureka
       - MANAGEMENT.ZIPKIN.TRACING.ENDPOINT=http://zipkin-server:9411/api/v2/spans
       # - SPRING.DATASOURCE.URL=jdbc:mysql://mysqldb:3306/garage_management_user_service
       # - SPRING.DATASOURCE.USERNAME=root
       - SPRING.DATASOURCE.URL=jdbc:mysql://pi.lan:3306/garage_management_user_service
-      - SPRING.DATASOURCE.USERNAME=longdq
-      - SPRING.DATASOURCE.PASSWORD=123456
+      - SPRING.DATASOURCE.USERNAME=root
+      - SPRING.DATASOURCE.PASSWORD=05120101
     restart: unless-stopped
 
   accessory-service:
@@ -32,9 +33,10 @@ services:
     environment:
       - EUREKA.CLIENT.SERVICEURL.DEFAULTZONE=http://naming-service:8761/eureka
       - MANAGEMENT.ZIPKIN.TRACING.ENDPOINT=http://zipkin-server:9411/api/v2/spans
-      - SPRING.DATASOURCE.URL=jdbc:mysql://pi.lan:3306/garage_management_accessory_service
-      - SPRING.DATASOURCE.USERNAME=longdq
-      - SPRING.DATASOURCE.PASSWORD=123456
+      - SPRING.
+      .URL=jdbc:mysql://pi.lan:3306/garage_management_accessory_service
+      - SPRING.DATASOURCE.USERNAME=root
+      - SPRING.DATASOURCE.PASSWORD=05120101
     restart: unless-stopped
 
   car-repair-service:
@@ -50,8 +52,8 @@ services:
       - EUREKA.CLIENT.SERVICEURL.DEFAULTZONE=http://naming-service:8761/eureka
       - MANAGEMENT.ZIPKIN.TRACING.ENDPOINT=http://zipkin-server:9411/api/v2/spans
       - SPRING.DATASOURCE.URL=jdbc:mysql://pi.lan:3306/garage_management_car_repair_service
-      - SPRING.DATASOURCE.USERNAME=longdq
-      - SPRING.DATASOURCE.PASSWORD=123456
+      - SPRING.DATASOURCE.USERNAME=root
+      - SPRING.DATASOURCE.PASSWORD=05120101
     restart: unless-stopped
 
   api-gateway:
