@@ -33,8 +33,7 @@ services:
     environment:
       - EUREKA.CLIENT.SERVICEURL.DEFAULTZONE=http://naming-service:8761/eureka
       - MANAGEMENT.ZIPKIN.TRACING.ENDPOINT=http://zipkin-server:9411/api/v2/spans
-      - SPRING.
-      .URL=jdbc:mysql://pi.lan:3306/garage_management_accessory_service
+      - SPRING.DATASOURCE.URL=jdbc:mysql://pi.lan:3306/garage_management_accessory_service
       - SPRING.DATASOURCE.USERNAME=root
       - SPRING.DATASOURCE.PASSWORD=05120101
     restart: unless-stopped
