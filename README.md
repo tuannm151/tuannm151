@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **Networking**
 
-- 💬 Ask me about **Kubernetes, Nomad, Terraform**
+- 💬 Ask me about **Cloud, Kubernetes, Nomad, Self-hosting**
 
 - 📫 How to reach me **minhtuan.dev05@gmail.com**
 
